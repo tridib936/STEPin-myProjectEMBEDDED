@@ -11,4 +11,4 @@
 
 |Test ID|	Description|	Exp I/P|	Exp O/P|	Actual Out|	Type Of Test|
 |---|---|---|---|---|---|
-|L_01|	Specific ranges for different operations	Any number other than 0 in division	Double type result	The result proceeds to display	Requirement based
+|L_02-H_02|	Identifying how much temperature needs to be increased|Input to heater if the temperature is low|	Seat heats|Seat heats|	Requirement based|
