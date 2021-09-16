@@ -1,38 +1,39 @@
 # Requirements
 ## Introduction
-Vehicles today have a lot of features that make travelling safe and comfortable. Air conditioners in vehicles have been an integral part of it in recent times. Another such feature is a seat heater. In cold countries
+Vehicles today have a lot of features that make travelling safe and comfortable. Air conditioners in vehicles have been an integral part of it in recent times. Another such feature is a seat heater. In cold countries, the air conditioner warms up the car, but the seat may be still too cold to sit on. So a seat heater is implemented to make it more comfortable.
 
-Cost and Features and Timeline
-Calculator is a cheap device which can cost upto an amount of Two thousand Rupees for those which offer various functions like solving vectors and matrices. Simple calculators cost a few hundred rupees.
+## Cost and Features and Timeline
+A seat heater consistes of a temperature sensor and a heater, both of which are not too costly. It comes along with some other parts such as a microcontroller and some buttons. All together this is a cheap but usefull feature which can be used even in the distant future without much hike in price.
 
-A calculator can have various features. Some of them provide different modes for calculation. It can operate with complex numbers, convert a number from one number system to the other, give the output in scientific notation terms and many others.
+## Defining Our System
+Our system, ie seat heater consists of a microcontroller, Atmega328, a temperature sensor, a heater and a button to check if the person is seated or not.
 
-Nowadays, calculators come in mobile phones, tablets, laptops and many other devices. It also comes as a device which is exclusively used for calculating. Calculators will naver go out of use as time goes on. There will be various requirements of calculators whenever we need to analyse something and comeup with exact output. Reguarding the cost of calculators, the price will go higher as new operations and features are included in it as time goes and new calculations come into play
+## SWOT ANALYSIS
+![swot embedded](https://user-images.githubusercontent.com/61946877/133629807-44c4940f-3cda-47d0-b9f5-a288c324d2f3.png)
 
-Defining Our System
-Our system, ie calculator consists of a terminal that takes user inputs and commands accordingly. It then passes the data to another unit which calculates the user inputs according to the given commands. The results are then displayed on the calculator screen.
+## 4W's and 1'H
+### Who:
+    This project can be used by anyone who wants to feel comfortable while travelling by car in cold conditions. This will need to be implemented by the car manufacturer for the person to use.
+### What:
+    The user will not have to feel the cold seat against him/her while driving the car.
+### When:
+    This project can be used by any person who buys a car with this feature.
+### Where:
+    A user will need a car to use this project.
+### How:
+    This project will be made in C languege with Atmega328 using multifile approach.
+    
+## Detail requirements
+### High Level Requirements:
 
-SWOT ANALYSIS
-SWOT
+|ID|	Description|	status|
+|---|---|---|
+|HLR_1|	Switching on and off|	Implemented|
+|HLR_2|	Taking input from the temperature sensor|	Implemented|
+|HLR_3|	Giving output from the heater|	Implemented|
 
-4W's and 1'H
-Who:
-    This project can be used by anyone who wants to calculate some mathematical operations.
-What:
-    The user will get accurate and fast answers to the operation they want to do.
-When:
-    This project can be used anytime, there is no restrictions or requirements. Whenever there is a need to calculate, a person can use this.
-Where:
-    A user will need an IDE to use this project.
-How:
-    This project will be made in C languege with cross-platform support for both Windows OS and Linux using multifile approach.
-Detail requirements
-High Level Requirements:
-ID	Description	status
-HLR_1	Switching on and off	Implemented
-HLR_2	Taking input	Implemented
-HLR_3	Giving output	Implemented
-Low level Requirements:
-ID	Description	status
-LLR_1-HLR_2	Identifying which operation needs to be performed	Implemented
-LLR_2-HLR_2	Performing the mathematical operation	Implemented
+### Low level Requirements:
+
+|ID|	Description|	status|
+|---|---|---|
+|LLR_2-HLR_2|	Identifying how much temperature needs to be increased|	Implemented|
