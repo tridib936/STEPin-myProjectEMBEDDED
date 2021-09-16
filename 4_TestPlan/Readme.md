@@ -5,8 +5,10 @@
 |---|---|---|---|---|---|
 |H_01|	Switching on|	HIGH	|The program should start|	The program starts|	Requirement based|
 |H_02|	Taking input from the temperature sensor|	temperature input|	The microcontroller should then send control to heater if required|	The program proceeds|	Scenario based|
-|H_03|	Selection of mode of operation	1 0r 2 based on operation type	The program starts calculating	The program proceeds	Boundary based
+|H_03|	Giving output from the heater|	Temperature input from sensor|	Seat starts heating|	Seat heats|	Boundary based|
 
 ## Table no 2: Low level test plan
-Test ID	Description	Exp I/P	Exp O/P	Actual Out	Type Of Test
-L_01	Specific ranges for different operations	Any number other than 0 in division	Double type result	The result proceeds to display	Requirement based
+
+|Test ID|	Description|	Exp I/P|	Exp O/P|	Actual Out|	Type Of Test|
+|---|---|---|---|---|---|
+|L_01|	Specific ranges for different operations	Any number other than 0 in division	Double type result	The result proceeds to display	Requirement based
